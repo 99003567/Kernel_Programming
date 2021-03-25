@@ -263,5 +263,5 @@ module_init(pschar_init);
 module_exit(pschar_exit);
 module_param(ndevices, int, 0); // Perms are 0. Can't modify in sysfs once loaded
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("satyasindhu");
-MODULE_DESCRIPTION("Simple Hello Module");
+MODULE_AUTHOR("Pranitha");
+MODULE_DESCRIPTION("list API usage in Pseudo Driver");
